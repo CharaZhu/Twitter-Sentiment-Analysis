@@ -10,7 +10,7 @@ get insight into the Canadian Elections and answer the Research question.</h5>
   
 #### TABLE OF CONTENTS 
 - [Background](#background)
-- [Requirement] 
+- [Requirement] (#Requirement)
 - [Dataset](#dataset) 
 - Technical Approach 
 - Limitations and Future Improvements
@@ -30,6 +30,17 @@ get insight into the Canadian Elections and answer the Research question.</h5>
 A branch of Natural Language Processing (NLP) that allows us to determine algorithmically whether a statement or document is “positive” or “negative”. A technology of increasing importance in the modern society as it allows individuals and organizations to detect trends in public opinion by analyzing social media content. Keeping abreast of socio-political developments is especially important during periods of policy shifts such as election years, when both electoral candidates and companies can benefit from sentiment analysis by making appropriate changes to their campaigning and business strategies respectively.
 
 
+### Dataset
+<h2 align="center"> </h2>
+
+
+### Requirement
+<h2 align="center"> </h2>
+
+  
+ 
+
+
 Your analysis must include the following steps:
 data cleaning, exploratory analysis, model preparation, model implementation, and
 discussion. This is an open-ended problem: there are countless different ways to approach
@@ -39,13 +50,6 @@ doing, why it is important, and the pros and cons of that approach.
 2) Create 5 slides in PowerPoint and PDF describing the findings from exploratory
 analysis, model feature importance, model results and visualizations.
 
-
- 
-### Requirement
-
-
-
- 
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
