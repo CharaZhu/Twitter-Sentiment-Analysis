@@ -9,16 +9,14 @@ get insight into the Canadian Elections and answer the Research question.</h5>
 
   
 #### TABLE OF CONTENTS 
-- [Background](#background)
-- [Requirement] (#Requirement)
+- [Background](#background) 
 - [Dataset](#dataset) 
-- Technical Approach 
-- Limitations and Future Improvements
+- [Requirement](#requirement)
+- Get Started
+- [Technical Approach](#Technical Approach)
+- [Limitations and Future Improvements](#Limitations and Future Improvements)
 - [License](#license)
-- Reference
-- [Install](#install)
-- [Usage](#usage)
-- [API](#api)
+- [Reference](#Reference)  
 <br/>
 
 
@@ -29,26 +27,19 @@ get insight into the Canadian Elections and answer the Research question.</h5>
 
 A branch of Natural Language Processing (NLP) that allows us to determine algorithmically whether a statement or document is “positive” or “negative”. A technology of increasing importance in the modern society as it allows individuals and organizations to detect trends in public opinion by analyzing social media content. Keeping abreast of socio-political developments is especially important during periods of policy shifts such as election years, when both electoral candidates and companies can benefit from sentiment analysis by making appropriate changes to their campaigning and business strategies respectively.
 
-
 ### Dataset
 <h2 align="center"> </h2>
 
-
+- sentiment_analysis.csv: classified Twitter data containing a set of tweets which
+have been analyzed and scored for their sentiment
+- Candian_elections_2019.csv: Twitter data containing a set of tweets from 2019 on the Canadian elections, which needs to be analyzed for this assignment
+ 
 ### Requirement
 <h2 align="center"> </h2>
-
+Numpy, Scipy, Scikit, Matplotlib, Pandas, NLTK.
   
  
-
-
-Your analysis must include the following steps:
-data cleaning, exploratory analysis, model preparation, model implementation, and
-discussion. This is an open-ended problem: there are countless different ways to approach
-each part of the analysis and therefore the motivation for each step is just as important as
-its implementation. When writing the report, make sure to explain (for each step) what it is
-doing, why it is important, and the pros and cons of that approach.
-2) Create 5 slides in PowerPoint and PDF describing the findings from exploratory
-analysis, model feature importance, model results and visualizations.
+ 
 
 ### Built With
 
