@@ -1,12 +1,7 @@
-# Sentiment Analysis of 2019 Canadian Election Tweets
-#### The purpose of this repo is to compute the sentiment of text information - tweets posted recently on Canadian Elections, and answer the research question: “What can public opinion on Twitter tell us about the Canadian political landscape in 2019?”  
-
- 
-
-
 <p align="center">
-  <h3 align="center">Project</h3>
-  <h5 align="center">Description</h5>
+  <h3 align="center"> Sentiment Analysis of 2019 Canadian Election Tweets </h3>
+  <h5 align="center">The purpose of this repo is to compute the sentiment of text information - tweets posted recently on Canadian Elections, and answer the research question: “What can public opinion on Twitter tell us about the Canadian political landscape in 2019?” </h5>
+  <br/>
 </p> 
 
 
@@ -38,8 +33,7 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+ ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
