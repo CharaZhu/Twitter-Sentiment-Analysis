@@ -1,60 +1,58 @@
 <p align="center">
   
   <h3 align="center"> Sentiment Analysis of 2019 Canadian Election Tweets </h3>
-  <h5 align="center">The purpose of this repo is to compute the sentiment of text information - tweets posted recently on Canadian Elections, and answer the research question: “What can public opinion on Twitter tell us about the Canadian political landscape in 2019?” </h5>
-  <br/>
+  <h5 align="center">Research question: What can public opinion on Twitter tell us about the Canadian political landscape in 2019?</h5>
+  <h5 align="center">The purpose of this repo is to compute the sentiment of text information - tweets posted recently on Canadian Elections, 
+get insight into the Canadian Elections and answer the Research question.</h5>
+<h2 align="center">   </h2>
 </p> 
 
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
+  
+#### TABLE OF CONTENTS 
+- [Background](#background)
+- [Requirement](#Requirement) 
+- [Dataset](#dataset) 
+- Technical Approach 
+- Limitations and Future Improvements
+- [License](#license)
+- Reference
+- [Install](#install)
+- [Usage](#usage)
+- [API](#api)
+<br/>
 
 
+### Background
+<h2 align="center"> </h2>
 
- ## About The Project
+#### Sentiment Analysis  
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+A branch of Natural Language Processing (NLP) that allows us to determine algorithmically whether a statement or document is “positive” or “negative”. A technology of increasing importance in the modern society as it allows individuals and organizations to detect trends in public opinion by analyzing social media content. Keeping abreast of socio-political developments is especially important during periods of policy shifts such as election years, when both electoral candidates and companies can benefit from sentiment analysis by making appropriate changes to their campaigning and business strategies respectively.
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+Your analysis must include the following steps:
+data cleaning, exploratory analysis, model preparation, model implementation, and
+discussion. This is an open-ended problem: there are countless different ways to approach
+each part of the analysis and therefore the motivation for each step is just as important as
+its implementation. When writing the report, make sure to explain (for each step) what it is
+doing, why it is important, and the pros and cons of that approach.
+2) Create 5 slides in PowerPoint and PDF describing the findings from exploratory
+analysis, model feature importance, model results and visualizations.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+ 
+### Requirement
 
+
+
+ 
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
 * [Laravel](https://laravel.com)
+ 
 
 
 
