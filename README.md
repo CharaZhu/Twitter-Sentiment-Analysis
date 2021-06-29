@@ -10,7 +10,7 @@ get insight into the Canadian Elections and answer the Research question.</h5>
   
 #### TABLE OF CONTENTS 
 - [Background](#background)
-- [Requirement](#Requirement) 
+- [Requirement] 
 - [Dataset](#dataset) 
 - Technical Approach 
 - Limitations and Future Improvements
