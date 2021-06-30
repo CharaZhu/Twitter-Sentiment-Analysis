@@ -39,7 +39,85 @@ have been analyzed and scored for their sentiment
 Numpy, Scipy, Scikit, Matplotlib, Pandas, NLTK.
   
  
+### Technical Approach
+<h2 align="center"> </h2>
+1. Data cleaning
  
+Design a procedure that prepares the Twitter data for analysis by satisfying the requirements below.
+o All html tags and attributes (i.e., /<[^>]+>/) are removed.
+o Html character codes (i.e., &...;) are replaced with an ASCII equivalent.
+o All URLs are removed.
+o All characters in the text are in lowercase.
+o All stop words are removed. Be clear in what you consider as a stop word.
+o If a tweet is empty after pre-processing, it should be preserved as such.
+
+2. Exploratory analysis  
+o Design a simple procedure that determines the political party (Liberal, Conservatives
+or New Democratic Party (NDC)) of a given tweet and apply this procedure to all the
+tweets in the Canadian Elections dataset. A suggestion would be to look at relevant
+words and hashtags in the tweets that identify to certain political parties or candidates.
+What can you say about the distribution of the political affiliations of the tweets?
+o Present a graphical figure (e.g. chart, graph, histogram, boxplot, word cloud, etc.) that
+visualizes some aspect of the generic tweets in sentiment_analysis.csv and another
+figure for the 2019 Canadian Elections tweets. All graphs and plots should be
+readable and have all axes that are appropriately labelled.
+
+
+3. Model preparation  
+Split the generic tweets randomly into training data (70%) and test data (30%).
+Prepare the data to try seven classification algorithms -- logistic regression, k-NN, Naive
+Bayes, SVM, decision trees, Random Forest and XGBoost, where each tweet is
+considered a single observation/example. In these models, the target variable is the
+sentiment value, which is either positive or negative. Try two different types of features,
+Bag of Words (word frequency) and TF-IDF on all 7
+
+4. Model implementation and tuning  
+Train models on the training data from generic tweets and apply the model to the
+test data to obtain an accuracy value. Evaluate the same trained model with best
+performance on the Canadian Elections data. How well do your predictions match the
+sentiment labelled in the Canadian elections data?
+Choose the model that has the best performance and visualize the sentiment
+prediction results and the true sentiment for each of the 3 parties/candidates. Discuss
+whether NLP analytics based on tweets is useful for political parties during election
+campaigns.
+
+Split the negative Canadian elections tweets into training data (70%) and test data
+(30%). Use the true sentiment labels in the Canadian elections data instead of your
+
+predictions from the previous part. Choose three algorithms from classification
+algorithms (choose any 3 from logistic regression, k-NN, Naive Bayes, SVM, decision
+trees, ensembles (RF, XGBoost)), train multi-class classification models to predict the
+reason for the negative tweets. Tune the hyperparameters and chose the model with best
+score to test your prediction reason for negative sentiment tweets. There are 5 different
+negative reasons labelled in the dataset.
+Feel free to combine similar reasons into fewer categories as long as you justify your
+reasoning. You are free to define input features of your model using word frequency
+analysis or other techniques.
+
+5. Results  
+Answer the research question stated above based on the outputs of your first model.
+Describe the results of the analysis and discuss your interpretation of the results. Explain
+how each party is viewed in the public eye based on the sentiment value. For the second
+model, based on the model that worked best, provide a few reasons why your model may
+fail to predict the correct negative reasons. Back up your reasoning with examples from
+the test sets. For both models, suggest one way you can improve the accuracy of your
+models.
+
+
+#Limitations and Future Improvements)
+● Try word embeddings (https://en.wikipedia.org/wiki/Word_embedding) and N-grams as feature
+engineering techniques in addition to WF and TF-IDF.
+● Explore Deep Learning algorithms and compare their performance to that of your best
+performing classification model.
+● Hyperparameter tuning for the models
+● While the exploratory analysis section requires only two figures, you can explore the data
+further. You can also display the results of the model visually.
+
+
+
+
+
+
 
 ### Built With
 
@@ -79,85 +157,9 @@ This is an example of how to list things you need to use the software and how to
 4. Enter your API in `config.js`
    ```JS
    const API_KEY = 'ENTER YOUR API';
-   ```
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
+   ``` 
+  
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
-
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[MIT](LICENSE) © Chara Zhu
