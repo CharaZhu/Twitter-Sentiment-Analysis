@@ -41,32 +41,23 @@ Numpy, Scipy, Scikit, Matplotlib, Pandas, NLTK.
 - Remove all characters in the text are in lowercase
 - Remove all stop words are removed
 - Preserve empty tweet after pre-processing
+</br> </br> 
 
 ### 2. Exploratory analysis  
 - Determine the political party of tweets in the Canadian Elections dataset.
 - Visualization
+</br> </br> 
 
 ### 3. Model preparation 
 - Classification algorithms: logistic regression, k-NN, Naive Bayes, SVM, decision trees, Random Forest and XGBoost
 - Features: Bag of Words (word frequency),TF-IDF and N-grams
+</br> </br> 
  
 ### 4. Model implementation and tuning  
 - Train classification model to predict the sentiment value (positive or negative) 
 - Train multi-class classification models to predict the reason for the negative tweets. 
+</br> </br> 
  
-### 5. Results  
-Answer the research question stated above based on the outputs of your first model.
-
-Describe the results of the analysis and discuss your interpretation of the results. Explain
-how each party is viewed in the public eye based on the sentiment value. 
-
-For the second
-model, based on the model that worked best, provide a few reasons why your model may
-fail to predict the correct negative reasons. Back up your reasoning with examples from
-the test sets. For both models, suggest one way you can improve the accuracy of your
-models.
-</br></br> 
-
 
 ## Limitations and Future Improvements
 * Try word embeddings (https://en.wikipedia.org/wiki/Word_embedding) as feature engineering techniques  
