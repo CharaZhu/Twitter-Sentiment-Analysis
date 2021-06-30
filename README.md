@@ -9,7 +9,7 @@
 - [Requirement](#requirement)
 - [Approach](#Approach)
 - 
-- [Technical Approach](#Technical Approach)
+- [Technical-Approach](#Technical Approach)
 - [Limitations and Future Improvements](#Limitations and Future Improvements)
 - [Reference](#Reference)  
 <br/>
@@ -30,6 +30,7 @@ Numpy, Scipy, Scikit, Matplotlib, Pandas, NLTK.
  
 ## Approach
 ### 1.Data cleaning
+## Technical-Approach
  
 Design a procedure that prepares the Twitter data for analysis by satisfying the requirements below.
 o All html tags and attributes (i.e., /<[^>]+>/) are removed.
