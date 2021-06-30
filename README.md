@@ -1,8 +1,9 @@
 # Sentiment Analysis of 2019 Canadian Election Tweets  
 
 ##### The purpose of this repo is to compute the sentiment of tweets posted recently on Canadian Elections, get insight into the Canadian Elections and answer the Research question： What can public opinion on Twitter tell us about the Canadian political landscape in 2019?
+</br>
 
-  
+
 #### TABLE OF CONTENTS 
 - [Background](#background) 
 - [Dataset](#dataset) 
@@ -16,15 +17,22 @@
 ## Background
  
 Sentiment Analysis is a branch of Natural Language Processing (NLP) that allows us to determine algorithmically whether a statement or document is “positive” or “negative”. It's a technology of increasing importance in the modern society as it allows individuals and organizations to detect trends in public opinion by analyzing social media content. Keeping abreast of socio-political developments is especially important during periods of policy shifts such as election years, when both electoral candidates and companies can benefit from sentiment analysis by making appropriate changes to their campaigning and business strategies respectively.
+</br>
+
+
 
 ## Dataset
-
 - sentiment_analysis.csv: classified Twitter data containing a set of tweets which
 have been analyzed and scored for their sentiment
 - Candian_elections_2019.csv: Twitter data containing a set of tweets from 2019 on the Canadian elections, which needs to be analyzed for this assignment
+ </br>
+ 
+ 
  
 ## Requirement
 Numpy, Scipy, Scikit, Matplotlib, Pandas, NLTK.
+</br> 
+  
   
  
 ## Technical-Approach
@@ -38,32 +46,19 @@ Numpy, Scipy, Scikit, Matplotlib, Pandas, NLTK.
 - Preserve empty tweet after pre-processing
 
 ### 2. Exploratory analysis  
-- Design a simple procedure that determines the political party (Liberal, Conservatives
-or New Democratic Party (NDC)) of a given tweet and apply this procedure to all the
-tweets in the Canadian Elections dataset.
+- Determine the political party of tweets in the Canadian Elections dataset.
+- Visualization
 
+### 3. Model preparation: predict the sentiment value (positive or negative)  
+- Classification algorithms: logistic regression, k-NN, Naive Bayes, SVM, decision trees, Random Forest and XGBoost
+- Features: Bag of Words (word frequency) and TF-IDF  
  
-What can you say about the distribution of the political affiliations of the tweets?
-
-o Present a graphical figure (e.g. chart, graph, histogram, boxplot, word cloud, etc.) that
-visualizes some aspect of the generic tweets in sentiment_analysis.csv and another
-figure for the 2019 Canadian Elections tweets. All graphs and plots should be
-readable and have all axes that are appropriately labelled.
-
-
-### 3. Model preparation  
-Split the generic tweets randomly into training data (70%) and test data (30%).
-Prepare the data to try seven classification algorithms -- logistic regression, k-NN, Naive
-Bayes, SVM, decision trees, Random Forest and XGBoost, where each tweet is
-considered a single observation/example. In these models, the target variable is the
-sentiment value, which is either positive or negative. Try two different types of features,
-Bag of Words (word frequency) and TF-IDF on all 7
-
 ### 4. Model implementation and tuning  
 Train models on the training data from generic tweets and apply the model to the
 test data to obtain an accuracy value. Evaluate the same trained model with best
 performance on the Canadian Elections data. How well do your predictions match the
 sentiment labelled in the Canadian elections data?
+
 Choose the model that has the best performance and visualize the sentiment
 prediction results and the true sentiment for each of the 3 parties/candidates. Discuss
 whether NLP analytics based on tweets is useful for political parties during election
@@ -85,19 +80,22 @@ analysis or other techniques.
 ### 5. Results  
 Answer the research question stated above based on the outputs of your first model.
 Describe the results of the analysis and discuss your interpretation of the results. Explain
-how each party is viewed in the public eye based on the sentiment value. For the second
+how each party is viewed in the public eye based on the sentiment value. 
+
+For the second
 model, based on the model that worked best, provide a few reasons why your model may
 fail to predict the correct negative reasons. Back up your reasoning with examples from
 the test sets. For both models, suggest one way you can improve the accuracy of your
 models.
+</br> 
 
 
 ## Limitations and Future Improvements
 ● Try word embeddings (https://en.wikipedia.org/wiki/Word_embedding) and N-grams as feature engineering techniques  
 ● Explore Deep Learning algorithms and compare their performance to that of your best performing classification model.
  
-* Edit Requirement (add some explanation) 
-
+* Add more explanations (Requirement, algorithm) 
+ 
 
  
  
