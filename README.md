@@ -46,36 +46,17 @@ Numpy, Scipy, Scikit, Matplotlib, Pandas, NLTK.
 - Determine the political party of tweets in the Canadian Elections dataset.
 - Visualization
 
-### 3. Model preparation: predict the sentiment value (positive or negative)  
+### 3. Model preparation 
 - Classification algorithms: logistic regression, k-NN, Naive Bayes, SVM, decision trees, Random Forest and XGBoost
 - Features: Bag of Words (word frequency),TF-IDF and N-grams
  
 ### 4. Model implementation and tuning  
-Train models on the training data from generic tweets and apply the model to the
-test data to obtain an accuracy value. Evaluate the same trained model with best
-performance on the Canadian Elections data. How well do your predictions match the
-sentiment labelled in the Canadian elections data?
-
-Choose the model that has the best performance and visualize the sentiment
-prediction results and the true sentiment for each of the 3 parties/candidates. Discuss
-whether NLP analytics based on tweets is useful for political parties during election
-campaigns.
-
-Split the negative Canadian elections tweets into training data (70%) and test data
-(30%). Use the true sentiment labels in the Canadian elections data instead of your
-
-predictions from the previous part. Choose three algorithms from classification
-algorithms (choose any 3 from logistic regression, k-NN, Naive Bayes, SVM, decision
-trees, ensembles (RF, XGBoost)), train multi-class classification models to predict the
-reason for the negative tweets. Tune the hyperparameters and chose the model with best
-score to test your prediction reason for negative sentiment tweets. There are 5 different
-negative reasons labelled in the dataset.
-Feel free to combine similar reasons into fewer categories as long as you justify your
-reasoning. You are free to define input features of your model using word frequency
-analysis or other techniques.
-
+- Train classification model to predict the sentiment value (positive or negative) 
+- Train multi-class classification models to predict the reason for the negative tweets. 
+ 
 ### 5. Results  
 Answer the research question stated above based on the outputs of your first model.
+
 Describe the results of the analysis and discuss your interpretation of the results. Explain
 how each party is viewed in the public eye based on the sentiment value. 
 
@@ -84,7 +65,7 @@ model, based on the model that worked best, provide a few reasons why your model
 fail to predict the correct negative reasons. Back up your reasoning with examples from
 the test sets. For both models, suggest one way you can improve the accuracy of your
 models.
-</br> 
+</br></br> 
 
 
 ## Limitations and Future Improvements
