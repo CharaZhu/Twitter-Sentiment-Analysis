@@ -34,7 +34,7 @@ Numpy, Scipy, Scikit, Matplotlib, Pandas, NLTK.
  
 ## Technical-Approach
 
-### 1.Data cleaning: Design a procedure that prepares the Twitter data for analysis
+#### 1.Data cleaning: Design a procedure that prepares the Twitter data for analysis
 - Remove all html tags and attributes (i.e., /<[^>]+>/)
 - Replace Html character codes (i.e., &...;) with an ASCII equivalent
 - Remove all URLs
@@ -43,17 +43,17 @@ Numpy, Scipy, Scikit, Matplotlib, Pandas, NLTK.
 - Preserve empty tweet after pre-processing
 </br> </br> 
 
-### 2. Exploratory analysis  
+#### 2. Exploratory analysis  
 - Determine the political party of tweets in the Canadian Elections dataset.
 - Visualization
 </br> </br> 
 
-### 3. Model preparation 
+#### 3. Model preparation 
 - Classification algorithms: logistic regression, k-NN, Naive Bayes, SVM, decision trees, Random Forest and XGBoost
 - Features: Bag of Words (word frequency),TF-IDF and N-grams
 </br> </br> 
  
-### 4. Model implementation and tuning  
+#### 4. Model implementation and tuning  
 - Train classification model to predict the sentiment value (positive or negative) 
 - Train multi-class classification models to predict the reason for the negative tweets. 
 </br> </br> 
