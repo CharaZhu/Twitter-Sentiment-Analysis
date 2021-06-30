@@ -7,12 +7,10 @@
 - [Background](#background) 
 - [Dataset](#dataset) 
 - [Requirement](#requirement)
-- Get Started
 - [Technical Approach](#Technical Approach)
 - [Limitations and Future Improvements](#Limitations and Future Improvements)
 - [Reference](#Reference)  
 <br/>
-
 
 ## Background
  
@@ -24,14 +22,12 @@ Sentiment Analysis is a branch of Natural Language Processing (NLP) that allows 
 have been analyzed and scored for their sentiment
 - Candian_elections_2019.csv: Twitter data containing a set of tweets from 2019 on the Canadian elections, which needs to be analyzed for this assignment
  
-### Requirement
-<h2 align="center"> </h2>
+## Requirement
 Numpy, Scipy, Scikit, Matplotlib, Pandas, NLTK.
   
  
-### Technical Approach
-<h2 align="center"> </h2>
-1. Data cleaning
+## Technical Approach
+### 1.Data cleaning
  
 Design a procedure that prepares the Twitter data for analysis by satisfying the requirements below.
 o All html tags and attributes (i.e., /<[^>]+>/) are removed.
@@ -94,7 +90,7 @@ the test sets. For both models, suggest one way you can improve the accuracy of 
 models.
 
 
-#Limitations and Future Improvements)
+## Limitations and Future Improvements
 ● Try word embeddings (https://en.wikipedia.org/wiki/Word_embedding) and N-grams as feature
 engineering techniques in addition to WF and TF-IDF.
 ● Explore Deep Learning algorithms and compare their performance to that of your best
@@ -103,48 +99,9 @@ performing classification model.
 ● While the exploratory analysis section requires only two figures, you can explore the data
 further. You can also display the results of the model visually.
 
+* Edit Requirement (add some explanation) 
 
 
-
-
-
-
-### Built With
-
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
  
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```  
+ 
+ 
