@@ -8,7 +8,7 @@
 - [Dataset](#dataset) 
 - [Requirement](#requirement)
 - [Technical Approach](#Technical-Approach)
-- [Limitations and Future Improvements](#Limitations and Future Improvements)
+- [Limitations and Future Improvements](#Limitations-and-Future-Improvements)
 - [Reference](#Reference)  
 <br/>
 
@@ -29,21 +29,22 @@ Numpy, Scipy, Scikit, Matplotlib, Pandas, NLTK.
  
 ## Technical-Approach
 
-### 1.Data cleaning
-Design a procedure that prepares the Twitter data for analysis by satisfying the requirements below.
-- All html tags and attributes (i.e., /<[^>]+>/) are removed.
-- Html character codes (i.e., &...;) are replaced with an ASCII equivalent.
-- All URLs are removed.
-- All characters in the text are in lowercase.
-- All stop words are removed. Be clear in what you consider as a stop word.
-- If a tweet is empty after pre-processing, it should be preserved as such.
+### 1.Data cleaning: Design a procedure that prepares the Twitter data for analysis
+- Remove all html tags and attributes (i.e., /<[^>]+>/)
+- Replace Html character codes (i.e., &...;) with an ASCII equivalent
+- Remove all URLs
+- Remove all characters in the text are in lowercase
+- Remove all stop words are removed
+- Preserve empty tweet after pre-processing
 
 ### 2. Exploratory analysis  
-o Design a simple procedure that determines the political party (Liberal, Conservatives
+- Design a simple procedure that determines the political party (Liberal, Conservatives
 or New Democratic Party (NDC)) of a given tweet and apply this procedure to all the
-tweets in the Canadian Elections dataset. A suggestion would be to look at relevant
-words and hashtags in the tweets that identify to certain political parties or candidates.
+tweets in the Canadian Elections dataset.
+
+ 
 What can you say about the distribution of the political affiliations of the tweets?
+
 o Present a graphical figure (e.g. chart, graph, histogram, boxplot, word cloud, etc.) that
 visualizes some aspect of the generic tweets in sentiment_analysis.csv and another
 figure for the 2019 Canadian Elections tweets. All graphs and plots should be
