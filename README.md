@@ -7,6 +7,8 @@
 - [Background](#background) 
 - [Dataset](#dataset) 
 - [Requirement](#requirement)
+- [Approach](#Approach)
+- 
 - [Technical Approach](#Technical Approach)
 - [Limitations and Future Improvements](#Limitations and Future Improvements)
 - [Reference](#Reference)  
@@ -26,7 +28,7 @@ have been analyzed and scored for their sentiment
 Numpy, Scipy, Scikit, Matplotlib, Pandas, NLTK.
   
  
-## Technical Approach
+## Approach
 ### 1.Data cleaning
  
 Design a procedure that prepares the Twitter data for analysis by satisfying the requirements below.
