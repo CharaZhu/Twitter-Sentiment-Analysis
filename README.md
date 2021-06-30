@@ -7,16 +7,12 @@
 - [Background](#background) 
 - [Dataset](#dataset) 
 - [Requirement](#requirement)
-- [Approach](#Approach)
-- 
 - [Technical Approach](#Technical-Approach)
 - [Limitations and Future Improvements](#Limitations and Future Improvements)
 - [Reference](#Reference)  
 <br/>
 
  
-
-
 ## Background
  
 Sentiment Analysis is a branch of Natural Language Processing (NLP) that allows us to determine algorithmically whether a statement or document is “positive” or “negative”. It's a technology of increasing importance in the modern society as it allows individuals and organizations to detect trends in public opinion by analyzing social media content. Keeping abreast of socio-political developments is especially important during periods of policy shifts such as election years, when both electoral candidates and companies can benefit from sentiment analysis by making appropriate changes to their campaigning and business strategies respectively.
@@ -31,19 +27,18 @@ have been analyzed and scored for their sentiment
 Numpy, Scipy, Scikit, Matplotlib, Pandas, NLTK.
   
  
-## Approach
-### 1.Data cleaning
 ## Technical-Approach
- 
-Design a procedure that prepares the Twitter data for analysis by satisfying the requirements below.
-o All html tags and attributes (i.e., /<[^>]+>/) are removed.
-o Html character codes (i.e., &...;) are replaced with an ASCII equivalent.
-o All URLs are removed.
-o All characters in the text are in lowercase.
-o All stop words are removed. Be clear in what you consider as a stop word.
-o If a tweet is empty after pre-processing, it should be preserved as such.
 
-2. Exploratory analysis  
+### 1.Data cleaning
+Design a procedure that prepares the Twitter data for analysis by satisfying the requirements below.
+- All html tags and attributes (i.e., /<[^>]+>/) are removed.
+- Html character codes (i.e., &...;) are replaced with an ASCII equivalent.
+- All URLs are removed.
+- All characters in the text are in lowercase.
+- All stop words are removed. Be clear in what you consider as a stop word.
+- If a tweet is empty after pre-processing, it should be preserved as such.
+
+### 2. Exploratory analysis  
 o Design a simple procedure that determines the political party (Liberal, Conservatives
 or New Democratic Party (NDC)) of a given tweet and apply this procedure to all the
 tweets in the Canadian Elections dataset. A suggestion would be to look at relevant
@@ -55,7 +50,7 @@ figure for the 2019 Canadian Elections tweets. All graphs and plots should be
 readable and have all axes that are appropriately labelled.
 
 
-3. Model preparation  
+### 3. Model preparation  
 Split the generic tweets randomly into training data (70%) and test data (30%).
 Prepare the data to try seven classification algorithms -- logistic regression, k-NN, Naive
 Bayes, SVM, decision trees, Random Forest and XGBoost, where each tweet is
@@ -63,7 +58,7 @@ considered a single observation/example. In these models, the target variable is
 sentiment value, which is either positive or negative. Try two different types of features,
 Bag of Words (word frequency) and TF-IDF on all 7
 
-4. Model implementation and tuning  
+### 4. Model implementation and tuning  
 Train models on the training data from generic tweets and apply the model to the
 test data to obtain an accuracy value. Evaluate the same trained model with best
 performance on the Canadian Elections data. How well do your predictions match the
@@ -86,7 +81,7 @@ Feel free to combine similar reasons into fewer categories as long as you justif
 reasoning. You are free to define input features of your model using word frequency
 analysis or other techniques.
 
-5. Results  
+### 5. Results  
 Answer the research question stated above based on the outputs of your first model.
 Describe the results of the analysis and discuss your interpretation of the results. Explain
 how each party is viewed in the public eye based on the sentiment value. For the second
@@ -97,14 +92,9 @@ models.
 
 
 ## Limitations and Future Improvements
-● Try word embeddings (https://en.wikipedia.org/wiki/Word_embedding) and N-grams as feature
-engineering techniques in addition to WF and TF-IDF.
-● Explore Deep Learning algorithms and compare their performance to that of your best
-performing classification model.
-● Hyperparameter tuning for the models
-● While the exploratory analysis section requires only two figures, you can explore the data
-further. You can also display the results of the model visually.
-
+● Try word embeddings (https://en.wikipedia.org/wiki/Word_embedding) and N-grams as feature engineering techniques  
+● Explore Deep Learning algorithms and compare their performance to that of your best performing classification model.
+ 
 * Edit Requirement (add some explanation) 
 
 
