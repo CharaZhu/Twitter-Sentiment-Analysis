@@ -10,20 +10,15 @@
 - Get Started
 - [Technical Approach](#Technical Approach)
 - [Limitations and Future Improvements](#Limitations and Future Improvements)
-- [License](#license)
 - [Reference](#Reference)  
 <br/>
 
 
-### Background
-<h2 align="center"> </h2>
+## Background
+ 
+Sentiment Analysis is a branch of Natural Language Processing (NLP) that allows us to determine algorithmically whether a statement or document is “positive” or “negative”. It's a technology of increasing importance in the modern society as it allows individuals and organizations to detect trends in public opinion by analyzing social media content. Keeping abreast of socio-political developments is especially important during periods of policy shifts such as election years, when both electoral candidates and companies can benefit from sentiment analysis by making appropriate changes to their campaigning and business strategies respectively.
 
-#### Sentiment Analysis  
-
-A branch of Natural Language Processing (NLP) that allows us to determine algorithmically whether a statement or document is “positive” or “negative”. A technology of increasing importance in the modern society as it allows individuals and organizations to detect trends in public opinion by analyzing social media content. Keeping abreast of socio-political developments is especially important during periods of policy shifts such as election years, when both electoral candidates and companies can benefit from sentiment analysis by making appropriate changes to their campaigning and business strategies respectively.
-
-### Dataset
-<h2 align="center"> </h2>
+## Dataset
 
 - sentiment_analysis.csv: classified Twitter data containing a set of tweets which
 have been analyzed and scored for their sentiment
@@ -152,9 +147,4 @@ This is an example of how to list things you need to use the software and how to
 4. Enter your API in `config.js`
    ```JS
    const API_KEY = 'ENTER YOUR API';
-   ``` 
-  
-<!-- LICENSE -->
-## License
-
-[MIT](LICENSE) © Chara Zhu
+   ```  
